@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(1,10): error C1083: içerme dosyası açılamıyor: 'SFML/Graphics.hpp': No such file or directory

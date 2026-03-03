@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(48,22): warning C4244: 'başlatılıyor': 'T' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(48,22): warning C4244:         with
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(48,22): warning C4244:         [
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(48,22): warning C4244:             T=unsigned int
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(48,22): warning C4244:         ]
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(50,40): warning C4244: 'bağımsız değişken': 'T' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(50,40): warning C4244:         with
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(50,40): warning C4244:         [
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(50,40): warning C4244:             T=unsigned int
+C:\Users\omrkv\source\repos\flappy_bird\flappy_bird\main.cpp(50,40): warning C4244:         ]
+LINK : fatal error LNK1104: 'sfml-graphics-d.lib' dosyası açılamıyor

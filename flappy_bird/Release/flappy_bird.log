@@ -1,0 +1,13 @@
+﻿  main.cpp
+  Kod üretiliyor
+  1 of 93 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+raylib.lib(rcore.obj) : warning LNK4099: PDB 'raylib.pdb', 'raylib.lib(rcore.obj)' ile veya 'C:\Users\omrkv\source\repos\flappy_bird\Release\raylib.pdb' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+raylib.lib(rglfw.obj) : warning LNK4099: PDB 'raylib.pdb', 'raylib.lib(rglfw.obj)' ile veya 'C:\Users\omrkv\source\repos\flappy_bird\Release\raylib.pdb' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+raylib.lib(rshapes.obj) : warning LNK4099: PDB 'raylib.pdb', 'raylib.lib(rshapes.obj)' ile veya 'C:\Users\omrkv\source\repos\flappy_bird\Release\raylib.pdb' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+raylib.lib(rtext.obj) : warning LNK4099: PDB 'raylib.pdb', 'raylib.lib(rtext.obj)' ile veya 'C:\Users\omrkv\source\repos\flappy_bird\Release\raylib.pdb' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+raylib.lib(rtextures.obj) : warning LNK4099: PDB '', 'raylib.lib(rtextures.obj)' ile veya '' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+raylib.lib(utils.obj) : warning LNK4099: PDB 'raylib.pdb', 'raylib.lib(utils.obj)' ile veya 'C:\Users\omrkv\source\repos\flappy_bird\Release\raylib.pdb' üzerinde bulunamadı; nesne, hata ayıklama bilgileri yokmuş gibi bağlanıyor
+  flappy_bird.vcxproj -> C:\Users\omrkv\source\repos\flappy_bird\Release\flappy_bird.exe
