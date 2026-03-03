@@ -29,7 +29,7 @@ int main() {
     float birdVelocity = 0.0f;
     const float gravity = 0.6f;
     const float jumpStrength = -8.0f;
-
+    
     const float scrollSpeed = 3.0f;
     const float pipeGap = 150.0f;
     std::vector<PipePair> pipes;
@@ -38,12 +38,11 @@ int main() {
     int score = 0;
 
     while (!WindowShouldClose()) {
-
+        
         if (IsKeyPressed(KEY_SPACE)) {
             if (state == PLAYING) {
                 birdVelocity = jumpStrength;
-            }
-            else if (state == GAME_OVER) {
+            } else if (state == GAME_OVER) {
                 birdPos = { 100.0f, 300.0f };
                 birdVelocity = 0.0f;
                 pipes.clear();
@@ -106,7 +105,7 @@ int main() {
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
-        DrawTexture(bgTex, 0, 0, WHITE);
+        DrawTexturePro(bgTex, { 0.0f, 0.0f, (float)bgTex.width, (float)bgTex.height }, { 0.0f, 0.0f, (float)screenWidth, (float)screenHeight }, { 0.0f, 0.0f }, 0.0f, WHITE);
 
         for (const auto& p : pipes) {
             Rectangle sourceRec = { 0.0f, 0.0f, (float)pipeTex.width, -(float)pipeTex.height };
